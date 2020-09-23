@@ -1,12 +1,13 @@
 # Project Title
 
-Entreprise Application Sample
+VK Entreprise Application Sample
 
 ## Getting Started
 
 This entreprise application builds with Spring Boot for accelerate application development. If you want to create your own Spring Boot-based project, visit Spring Initializr, fill in your project details, pick your options, and download a bundled up project as a zip file.
 
-This Spring Boot Standalone application configure to connect with MySQL database and generates REST API.    
+This Spring Boot Standalone application configure to connect with MySQL database and generates REST API. Spring Boot Security has implemented.
+   
 
 ### Prerequisites
 
@@ -19,6 +20,8 @@ Bank
 Employee
 Project
 Transaction
+User
+Role
 ```
 
 
