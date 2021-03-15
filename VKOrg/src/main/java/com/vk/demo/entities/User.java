@@ -1,5 +1,6 @@
 package com.vk.demo.entities;
 
+import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -27,7 +28,7 @@ public class User {
 	
 	@OneToMany(cascade= CascadeType.ALL, fetch = FetchType.EAGER)
 	@JoinTable(name = "user_role", joinColumns=@JoinColumn(name="user_id"),inverseJoinColumns=@JoinColumn(name="role_id"))
-	private Set<Role> roles;
+	private Set<Role> roles = new HashSet<Role>();
 
 	public int getUser_id() {
 		return user_id;
