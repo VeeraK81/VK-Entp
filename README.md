@@ -1,4 +1,4 @@
-# Project Title
+# Project Title - JAVA SPRING BOOT PROJECT
 
 VK Entreprise Application Sample
 
